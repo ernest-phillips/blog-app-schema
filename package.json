@@ -1,0 +1,27 @@
+{
+  "name": "blog-api",
+  "version": "1.0.0",
+  "description": "CRUD API for a blogging platform.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ernest-phillips/blog-api.git"
+  },
+  "author": "Ernest L. Phillips",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ernest-phillips/blog-api/issues"
+  },
+  "homepage": "https://github.com/ernest-phillips/blog-api#readme",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "express": "^4.16.4",
+    "mocha": "^5.2.0",
+    "morgan": "^1.9.1",
+    "uuid": "^3.3.2"
+  }
+}
